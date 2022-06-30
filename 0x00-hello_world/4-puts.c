@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
-int main (void)
-{	
+/**
+ * main-Entry point
+ * return: 0 if succesful
+ */
+int main(void)
+{
 	char str[51];
 
 	strcpy(str, "Programming is like building a multilingual puzzle");
 
 	puts(str);
 
-	return(0);
-	
-}		
+	return (0);
+}
 
