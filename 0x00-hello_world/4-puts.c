@@ -3,8 +3,11 @@
 
 /**
  * main-Entry point
+ *
  * return: 0 if succesful
+ * return value of main is 0
  */
+
 int main(void)
 {
 	char str[51];
