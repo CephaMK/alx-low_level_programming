@@ -18,12 +18,12 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	} n = 0;
-	while (n)
+	}
+	if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
-	if  (n < 0)
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
