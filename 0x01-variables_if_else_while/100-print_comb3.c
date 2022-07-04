@@ -1,22 +1,27 @@
+/*
+ * File 100-print_comb3.c
+ */
+
 #include <stdio.h>
 
 /**
- * main - prints numbers from 0 to 99 separated by comma and whitespace
+ * main - prints all possible different combinations of two digits
+ *	separated by comma followed by a whitespace.
  *
- * return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
 	int x, y;
 
-	for (x = 0; x < 10; x++)
+	for (x = 0; x < 9; x++)
 	{
-		for(y = 0; y < 10; y++)
+		for (y = x + 1; y < 10; y++)
 		{
 			putchar((x % 10) + '0');
 			putchar((y % 10) + '0');
 
-			if (x == 9 && y == 9)
+			if (x == 8 && y == 9)
 				continue;
 
 			putchar(',');
