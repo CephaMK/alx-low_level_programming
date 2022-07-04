@@ -1,9 +1,14 @@
-#include <stdio.h>
-
 /*
- * main function is void
+ * File  2-print_alphabet.c
  */
 
+#include <stdio.h>
+
+/**
+ * main - Prints the alphabet in lowercase followed by a new line
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	char x;
