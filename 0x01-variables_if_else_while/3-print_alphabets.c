@@ -1,6 +1,13 @@
+/*
+ * File 3-print_alphabets.c
+ */
+
 #include <stdio.h>
 
-/*main function prints the lowercase then uppercase*/
+/**
+ * main -  prints the alphabet in lowercase then uppercase
+ * Return: Always 0
+ */
 int main(void)
 {
 	char x;
@@ -10,9 +17,8 @@ int main(void)
 
 	for (x = 'A'; x <= 'Z'; x++)
 		putchar(x);
-		putchar('\n');
 
+	putchar('\n');
 
-	return (0); /*return value is 0 if main is successful*/
+	return (0);
 }
-
