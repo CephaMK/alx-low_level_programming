@@ -1,9 +1,13 @@
+/*
+ * File  4-print_alphabt.c
+ */
+
 #include <stdio.h>
 
 /**
- * main -prints the alphabet in lower case except for q and e'
+ * main - prints the alphabet in lower case except for q and e
  *
- * return 0 always
+ * Return: Always 0
  */
 int main(void)
 {

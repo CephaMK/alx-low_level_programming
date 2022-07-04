@@ -1,9 +1,13 @@
+/*
+ * File 7-print_tebahpla.c
+ */
+
 #include <stdio.h>
 
 /**
- * main -print lowercase alphabet in reverse
+ * main - print lowercase alphabet in reverse
  *
- * return always 0
+ * Return: Always 0
  */
 int main(void)
 {
