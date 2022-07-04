@@ -14,7 +14,9 @@ int main(void)
 	int mk;
 
 	for (mk = 0; mk < 10; mk++)
-		printf("%d\n", mk);
+		printf("%d", mk);
+
+	printf("\n");
 
 	return (0);
 }
