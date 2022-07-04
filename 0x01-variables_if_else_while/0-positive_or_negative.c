@@ -1,14 +1,17 @@
+/*
+ * File 0-positive_or_negative.c
+ */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
-/*main-entry point
+/**
+ * main - Prints a random number and states
+ *        whether it is negative, positive, or zero.
  *
- * return 0 always succesful*/
-
-
-/*
- * main function is void*/
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
