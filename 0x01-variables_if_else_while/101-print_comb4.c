@@ -1,19 +1,24 @@
+/*
+ * File 101-print_comb4.c
+ */
+
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of digits
+ * main - prints all possible different combinations of three digits,
+ *	in ascending order separated by a comma followed by a new line.
  *
- * return: always 0
+ * Return: always 0
  */
 int main(void)
 {
 	int _5, _4, _3;
 
-	for (_5 = 0; _5 < 10; _5++)
+	for (_5 = 0; _5 < 8; _5++)
 	{
-		for (_4 = 0; _4 < 10; _4++)
+		for (_4 = _5 + 1; _4 < 9; _4++)
 		{
-			for (_3 = 0; _3 < 10; _3++)
+			for (_3 = _4 + 1; _3 < 10; _3++)
 			{
 				putchar((_5 % 10) + '0');
 				putchar((_4 % 10) + '0');
