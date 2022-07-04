@@ -1,9 +1,14 @@
+/*
+ * File: 5-printf.c
+ */
+
 #include <stdio.h>
 
 /**
- * main-entry point
+ * main - Prints "with proper grammar, but the outcome
+ *                is a piece of art," followed by a new line.
  *
- * return 0 always successful
+ * Return: Always 0
  */
 int main(void)
 {
