@@ -1,20 +1,18 @@
+/*
+ * File:  4-puts.c
+ */
+
 #include <stdio.h>
 #include <string.h>
 
 /**
- * main-Entry point
- *
- * return: 0 if succesful
- * return value of main is 0
+ * main - Prints "Programming is like building a
+ *                multilingual puzzle" followed by a new line.
+ * Return: Always 0
  */
-
 int main(void)
 {
-	char str[51];
-
-	strcpy(str, "Programming is like building a multilingual puzzle");
-
-	puts(str);
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
 }
