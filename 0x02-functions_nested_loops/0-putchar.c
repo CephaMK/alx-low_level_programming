@@ -28,6 +28,9 @@ void putcharc(void)
  * Return: 0
  */
 int main(void)
+/*
+ * main.h - source file
+ */
 #include "main.h"
 {
 	putcharc();
