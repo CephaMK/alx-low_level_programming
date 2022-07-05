@@ -12,7 +12,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int _3;
+	int _3 = 0;
 	char v;
 
 	while (_3++ <= 9)
