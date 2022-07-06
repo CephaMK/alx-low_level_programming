@@ -22,7 +22,7 @@ void putcharc(void)
 	_putchar('\n');
 }
 
-/*
+/**
  * main - calls out function
  *
  * Return: 0
