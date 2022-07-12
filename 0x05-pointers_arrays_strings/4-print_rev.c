@@ -8,7 +8,6 @@
  * print_rev - prints strint in reverse followed by a new line
  * @s: string in question
  *
- * Return: string in reverse
  */
 void print_rev(char *s)
 {
@@ -16,6 +15,7 @@ void print_rev(char *s)
 
 	while (s[index++])
 		l++;
+
 	for (index = l - 1; index >= 0; index--)
 		_putchar(s[index]);
 
