@@ -15,7 +15,7 @@ void puts2(char *str)
 
 	while (str[index++])
 		k++;
-	
+
 	for (index = 0; index < k; index += 2)
 		_putchar(str[index]);
 
