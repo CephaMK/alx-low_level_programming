@@ -3,6 +3,7 @@
  */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - prints inputed number of elements in array
