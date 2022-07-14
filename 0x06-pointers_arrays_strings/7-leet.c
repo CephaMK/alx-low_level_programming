@@ -23,7 +23,7 @@ char  *leet(char *s)
 				s[m1] - 32 == leet[m2])
 				s[m1] = m2 + '0';
 		}
-		
+
 		m1++;
 	}
 
