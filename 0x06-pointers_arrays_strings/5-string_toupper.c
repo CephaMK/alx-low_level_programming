@@ -2,7 +2,7 @@
  * File 5-string_toupper.c
  */
 
-#include <ctype.h>
+#include "main.h"
 
 /**
  * string_toupper - changes all lowercase letters to uppercase
