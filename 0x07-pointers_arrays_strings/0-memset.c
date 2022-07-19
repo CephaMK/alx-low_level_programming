@@ -13,15 +13,14 @@
  *
  * return: constant byte
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int b, size_t n)
 {
 	unsigned int i;
-	unsigned int n = size_t n;
-	char *mem = s, val = b;
+	unsigned char *mem = s, val = b;
 
 	for (i = 0; i < n; i++)
 		mem[i] = val;
-	
+
 	return (mem);
 
 }
