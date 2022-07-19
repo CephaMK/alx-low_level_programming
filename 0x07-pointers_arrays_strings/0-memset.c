@@ -11,7 +11,7 @@
  * @b: constant byte
  * @n: numbers of bytes of memory area
  *
- * return: constant byte
+ * Return: constant byte
  */
 void *_memset(void *s, int b, size_t n)
 {
