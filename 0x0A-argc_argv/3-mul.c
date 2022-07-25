@@ -8,6 +8,8 @@
  * main - multiplies two arguments and returns result
  * @argc: arguments
  * @argv: pointer to argument
+ *
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
