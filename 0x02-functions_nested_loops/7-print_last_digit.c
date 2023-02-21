@@ -6,7 +6,7 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @int: number in question
+ * @n: number in question
  *
  * Return: value of last digit
  */
