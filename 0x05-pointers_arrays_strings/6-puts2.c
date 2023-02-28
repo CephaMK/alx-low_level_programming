@@ -11,9 +11,9 @@
  */
 void puts2(char *str)
 {
-	int m = 0, k = 0;
+	int m, k = 0;
 
-	while (str[m])
+	while (str[k] != '\0')
 		k++;
 
 	for (m = 0; m < k; m += 2)
