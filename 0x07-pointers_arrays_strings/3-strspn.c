@@ -13,24 +13,24 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int byt = 0;
-	int i;
+	unsigned int a = 0, b, c = 0;
 
-	while (*s)
+	while (accept[a])
 	{
-		for (i = 0; accept[i]; i++)
+		b = 0;
+
+		while (s[b] != 32)
 		{
-			if (*s == accept[i])
+			if (accept[a] == s[b])
 			{
-				byt++;
-				break;
+				c++;
 			}
-			else if (accept[i + 1] == '\0')
-				return (byt);
+
+			b++;
 		}
 
-		s++;
+		a++;
 	}
 
-	return (byt);
+	return (c);
 }

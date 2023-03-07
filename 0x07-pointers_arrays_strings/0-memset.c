@@ -13,13 +13,14 @@
  *
  * Return: pointer to memory address of s.
  */
-void *_memset(void *s, int b, size_t n))
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
-	unsigned char *mem = s, val = b;
 
 	for (i = 0; i < n; i++)
-		mem[i] = val;
+	{
+		s[i] = b;
+	}
 
-	return (mem);
+	return (s);
 }
