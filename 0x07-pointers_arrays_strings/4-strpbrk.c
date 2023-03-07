@@ -22,16 +22,16 @@ char *_strpbrk(char *s, char *accept)
 
 		while (accept[j])
 		{
-			if (s[i] == accept[b])
+			if (s[i] == accept[j])
 			{
 				s += i;
 				return (s);
 			}
 
-			b++;
+			j++;
 		}
 
-		a++;
+		i++;
 	}
 
 	return ('\0');
